@@ -1,0 +1,2 @@
+# svg-placeholder
+SVG Placeholder
