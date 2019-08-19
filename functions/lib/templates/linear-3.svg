@@ -2,8 +2,13 @@
     <defs>
         <style type="text/css">
             <![CDATA[
+				:root {
+					--c1: rgb(112, 84, 203);
+					--c2: rgb(232, 47, 180);
+					--deg: 20deg;
+				}
                 svg {
-                    background: linear-gradient(0deg, rgb(112, 84, 203),rgb(232, 47, 180));
+                    background: linear-gradient(var(--deg), var(--c1), var(--c2));
                     background-repeat: no-repeat;
                 }
             ]]>
