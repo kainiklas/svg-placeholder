@@ -1,0 +1,17 @@
+<svg width="%WIDTH%" height="%HEIGHT%" version="1.1" xmlns="http://www.w3.org/2000/svg" baseProfile="full">
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+				:root {
+					--c1: rgb(148, 148, 148);
+					--c2: rgb(245, 245, 245);
+					--deg: 90deg;
+				}
+                svg {
+                    background: linear-gradient(90deg, rgba(134, 134, 134, 0.05) 0%, rgba(134, 134, 134, 0.05) 21%,rgba(95, 95, 95, 0.05) 21%, rgba(95, 95, 95, 0.05) 100%),linear-gradient(45deg, rgba(16, 16, 16, 0.08) 0%, rgba(16, 16, 16, 0.08) 43%,rgba(254, 254, 254, 0.08) 43%, rgba(254, 254, 254, 0.08) 100%),linear-gradient(135deg, rgba(35, 35, 35, 0.08) 0%, rgba(35, 35, 35, 0.08) 36%,rgba(198, 198, 198, 0.08) 36%, rgba(198, 198, 198, 0.08) 100%),linear-gradient(135deg, rgba(75, 75, 75, 0.08) 0%, rgba(75, 75, 75, 0.08) 54%,rgba(123, 123, 123, 0.08) 54%, rgba(123, 123, 123, 0.08) 100%),linear-gradient(45deg, rgba(39, 39, 39, 0.03) 0%, rgba(39, 39, 39, 0.03) 86%,rgba(229, 229, 229, 0.03) 86%, rgba(229, 229, 229, 0.03) 100%),linear-gradient(135deg, rgba(74, 74, 74, 0.1) 0%, rgba(74, 74, 74, 0.1) 61%,rgba(70, 70, 70, 0.1) 61%, rgba(70, 70, 70, 0.1) 100%),linear-gradient(var(--deg), var(--c1), var(--c2));
+                    background-repeat: no-repeat;
+                }
+            ]]>
+        </style>
+    </defs>
+</svg>

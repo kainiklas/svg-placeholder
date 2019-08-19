@@ -1,0 +1,17 @@
+<svg width="%WIDTH%" height="%HEIGHT%" version="1.1" xmlns="http://www.w3.org/2000/svg" baseProfile="full">
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+				:root {
+					--c1: rgb(45, 11, 30);
+					--c2: rgb(209, 52, 3);
+					--deg: 90deg;
+				}
+                svg {
+                    background: linear-gradient(45deg, rgba(33, 33, 33, 0.2) 0%, rgba(33, 33, 33, 0.2) 49%,rgba(33, 33, 33, 0.1) 49%, rgba(33, 33, 33, 0.1) 67%,rgba(33, 33, 33, 0.2) 67%, rgba(33, 33, 33, 0.2) 76%,rgba(33, 33, 33, 0.1) 76%, rgba(33, 33, 33, 0.1) 81%,rgba(33, 33, 33, 0.05) 81%, rgba(33, 33, 33, 0.05) 82%,rgba(33, 33, 33, 0.15) 82%, rgba(33, 33, 33, 0.15) 100%), linear-gradient(var(--deg), var(--c1), var(--c2));
+                    background-repeat: no-repeat;
+                }
+            ]]>
+        </style>
+    </defs>
+</svg>

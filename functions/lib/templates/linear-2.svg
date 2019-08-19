@@ -1,0 +1,12 @@
+<svg width="%WIDTH%" height="%HEIGHT%" version="1.1" xmlns="http://www.w3.org/2000/svg" baseProfile="full">
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+                svg {
+                    background: linear-gradient(0deg, rgb(85, 217, 233),rgb(86, 73, 252));
+                    background-repeat: no-repeat;
+                }
+            ]]>
+        </style>
+    </defs>
+</svg>
