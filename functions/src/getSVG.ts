@@ -38,12 +38,13 @@ export function getSVG(req: express.Request, style: string): string {
 
 function parseQueryParams(req: express.Request) {
 
-    const preset = (parseInt(req.params.preset) || 1).toString();
-    const width = (parseInt(req.query.width) || '100%').toString();
-    const height = (parseInt(req.query.height) || '100%').toString();
-    const deg = (parseInt(req.query.deg) || '').toString();
-    const c1 = (parseInt(req.query.c1) || '').toString();
-    const c2 = (parseInt(req.query.c2) || '').toString();
+    const preset = req.params.preset ? req.params.preset.replace(/\D/gi, '') : 1;
+    const width = req.query.width ? req.query.width.replace(/\D/gi, '') : '100%';
+    const height = req.query.height ? req.query.height.replace(/\D/gi, '') : '100%';
+    const deg = req.query.deg ? req.query.deg.replace(/\D/gi, '') : '';
+
+    const c1 = req.query.c1 ? req.query.c1.replace(/\W/gi, '').substring(0, 6) : '';
+    const c2 = req.query.c2 ? req.query.c2.replace(/\W/gi, '').substring(0, 6) : '';
 
     return {
         preset: preset,
