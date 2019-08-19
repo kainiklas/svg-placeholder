@@ -10,23 +10,275 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <title>Hello, world!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css">
+
+  <link rel="stylesheet" href="styles.css" type="text/css">
+
+  <title>SVG Placeholder - Customizable & Colorful Placeholder</title>
 </head>
 
 <body>
-  <h1>Hello, world!</h1>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+      <span class="navbar-brand mb-0 h1">SVG Placeholder</span>
+      <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+        data-target="#navbar4">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar4">
+        <ul class="navbar-nav ml-auto"></ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="py-4 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-fluid d-block rounded" src="https://svg-placeholder.web.app/angular/1?c1=3d5faf&c2=7bc4b7"
+            style="height: 100%">
+        </div>
+        <div class="d-flex flex-column justify-content-start col-lg-8">
+          <h1>
+            <b>SVG Placeholder</b>&nbsp;
+            <small class="text-muted"><br>The customizable & colorful placeholder</small>
+          </h1>
+          <p class="lead pt-2">
+            You are building a website, mockup or prototype? Give it a colorful touch with SVG placeholder.
+          </p>
+          <p class="lead pt-2">
+            Choose among 4 styles and customize the color to your needs. You can also set a pre-defined width and
+            height of the placeholder image.
+          </p>
+          <p>
+            <code>Example on the left:
+              <br/>
+            &lt;img src=&quot;https://svg-placeholder.web.app/angular/1?c1=3d5faf&c2=7bc4b7&quot;&gt;</code>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-4 bg-light" id="chooseStyle">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto col-md-12">
+          <h1 class="mb-3"><b>Choose a style & preset</b></h1>
+        </div>
+      </div>
+
+      <h3 class="mb3">Angular</h3>
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/angular/1" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/angular/1">
+              svg-placeholder.web.app/<br />angular/1
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/angular/2" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/angular/2">
+              svg-placeholder.web.app/<br />angular/2
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/angular/3" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/angular/3">
+              svg-placeholder.web.app/<br />angular/3
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/angular/4" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/angular/4">
+              svg-placeholder.web.app/<br />angular/4
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="mb3 pt-4">Burst</h3>
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/burst/1" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/burst/1">
+              svg-placeholder.web.app/<br />burst/1
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/burst/2" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/burst/2">
+              svg-placeholder.web.app/<br />burst/2
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/burst/3" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/burst/3">
+              svg-placeholder.web.app/<br />burst/3
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/burst/4" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/burst/4">
+              svg-placeholder.web.app/<br />burst/4
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="mb3 pt-4">Stripes</h3>
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/stripes/1" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/stripes/1">
+              svg-placeholder.web.app/<br />stripes/1
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/stripes/2" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/stripes/2">
+              svg-placeholder.web.app/<br />stripes/2
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/stripes/3" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/stripes/3">
+              svg-placeholder.web.app/<br />stripes/3
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/stripes/4" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/stripes/4">
+              svg-placeholder.web.app/<br />stripes/4
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="mb3 pt-4">Linear</h3>
+
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/linear/1" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/linear/1">
+              svg-placeholder.web.app/<br />linear/1
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/linear/2" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/linear/2">
+              svg-placeholder.web.app/<br />linear/2
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/linear/3" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/linear/3">
+              svg-placeholder.web.app/<br />linear/3
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://svg-placeholder.web.app/linear/4" alt="">
+          <div class="card-body">
+            <a class="badge badge-dark" href="https://svg-placeholder.web.app/linear/4">
+              svg-placeholder.web.app/<br />linear/4
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="py-4 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto col-md-8">
+          <h1 class="mb-3"><b>Embed SVG Placeholder</b></h1>
+
+          <p class="lead">Use the following URL to embed the SVG placeholder on your page:</p>
+
+          <p>
+            <ul>
+              <li>
+                <code>https://svg-placeholder.web.app/{style}/{preset}?width={width}&height={height}&c1={c1}&c2={c2}</code>
+              </li>
+            </ul>
+          </p>
+
+          <p>
+            The parameters have the following meaning. Query parameters are optional. If not provided, the default is
+            used:
+          </p>
+
+          <ul>
+            <li><code>{style} = [angular, burst, linear, stripes]</code></li>
+            <li><code>{preset} = [1, 2, 3, 4] (optional)</code></li>
+            <li><code>{width} = [number] (optional)</code> (e.g., 300)</li>
+            <li><code>{height} = [number] (optional)</code> (e.g., 300)</li>
+            <li><code>{c1} = [hex-html-color] (optional)</code> (e.g., #123456)</li>
+            <li><code>{c2} = [hex-html-color] (optional)</code> (e.g., #123456)</li>
+          </ul>
+
+          <h3 class="mb-3"><b>Example - Navigation Header of this page</b></h3>
+
+          <p>
+            <code>https://svg-placeholder.web.app/stripes/2?c1=3d5faf&c2=7bc4b7</code>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center d-md-flex align-items-center">
+          <ul class="nav mx-md-auto d-flex justify-content-center"></ul>
+          <div class="row">
+            <div class="col-md-12 d-flex align-items-center justify-content-md-between justify-content-center my-2">
+              <a href="https://github.com/kainiklas/svg-placeholder">
+                <i class="d-block fa fa-github text-muted ml-2 fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>
