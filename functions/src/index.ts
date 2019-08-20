@@ -10,8 +10,8 @@ app.use(helmet());
 
 app.get('/*', function (req, res, next) {
 
-    // cache for one day
-    res.set('Cache-Control', 'public, max-age=86400, s-maxage=86400');
+    // cache for one 7 days
+    res.set('Cache-Control', 'public, max-age=604800, s-maxage=604800');
 
     res.setHeader('Content-Type', 'image/svg+xml');
     next();
